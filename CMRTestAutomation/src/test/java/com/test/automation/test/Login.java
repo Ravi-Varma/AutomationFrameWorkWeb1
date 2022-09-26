@@ -40,7 +40,7 @@ public class Login extends TestBase {
 		log.info("============================Staring loginPageTitleTest====================");
 		String title=loginpage.validateLoginPageTitle();
 		Assert.assertEquals(title, "#1 Free CRM for Any Business: Online Customer Relationship Software");
-		log.info("============================End of loginPageTitleTest====================");
+		log.info("============================End of loginPageTitleTest======================");
 	}
 	
 	@Test(priority=2)
